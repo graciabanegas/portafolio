@@ -359,6 +359,7 @@ footer a{
 	margin: auto;
 	transition: all 0.4s ease-in-out;
 	font-size: 22px;
+	margin-top: 5%;
 }
 
 footer a:hover{
@@ -441,4 +442,16 @@ bottom: -90px;
 	color: #fff;
 	position: relative;
 	top: -160px;
+}
+
+footer p{
+	color: #ffc906;
+	text-align: center;
+	position: relative;
+	left: 15px;
+}
+
+footer hr{
+	color: #BABABA;
+	border: solid thin;
 }
