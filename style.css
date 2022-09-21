@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500&family=Varela+Round&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-color: #000;
+	padding: 20px;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 600;
+}
+
+header img{
+	width: 50px;
+	height: 35px;
+}
+
+#hero{
+	background-image: url("../img/header-gracia.png");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+	padding: 180px;
+}
+
+
+#hero h1, h2, p, .btn-contact{
+position: relative;
+	left: -85px;	
+	color: #fff;
+}
+#hero h1, h2{
+	font-family: 'Modak', cursive;
+	color: #fff;
+	margin-left: 0;
+}
+
+#hero h1{
+	font-size: 140px;
+	line-height: 20px;
+}
+
+#hero h2{
+	font-size: 90px;
+}
+
+#hero p{
+	font-size: 15px;
+	margin-top: 2%;
+}
+
+.yellow{
+	color: #ffc906;
+}
+
+.pink{
+	color: #ed729b;
+}
+
+
+.btn-contact{
+	width: 140px;
+	height: 40px;
+	border-radius: 50px;
+	background-color:  #ed729b;
+	font-size: 15px;
+}
+
+
+.btn-contact:hover{
+	background-color:  #fff;
+	color: #ed729b;
+}
+
+
+#acerca-de {
+	color: #000000;
+	padding: 80px;
+}
+
+
+#acerca-de p{
+	color: #000000;
+	font-size:16px;
+	position: relative;
+	right: -10px;
+	top: 20px;
+}
+
+.titulo{
+	font-family: 'Modak', cursive;
+	text-align: center;
+	font-size: 80px;
+}
+
+#acerca-de img{
+	position: relative;
+	left: 90px;
+}
+
+#acerca-de h3{
+	color: #34a9f9;
+}
+
+
+.adobe img{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	left: 210px;
+}
+
+
+#skills{
+	background-color: #ed729b;
+}
+
+#skills h3{
+	color: #ffc906;
+	padding: 70px 0 0;
+}
+
+
+#skills p{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	padding: 20px;
+	border-radius: 50px;
+	position: relative;
+	right: 0 !important;
+	left: 0 !important;
+	margin-bottom: 5%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;;
+  border-radius: 50%;
+  display: inline-block;
+position: relative;
+	top: 15px;
+}
+
+
+.dot-2{
+	height: 20px;
+  width: 20px;
+  background-color:transparent;
+	border: solid thin;
+	border-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+position: relative;
+	top: 15px;
+}
+
+#skills h4{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	color: #fff;
+}
+
+#skills .none-d{
+	background-color: transparent !important;
+	text-align: left !important;
+	position: relative;
+	color: #fff;
+	margin-bottom: 0 !important;
+	font-size: 18px;
+	left: -65px;
+	top: 7px;
+}
+
+#skills i{
+	color: #fff;
+	font-size: 45px;
+	position: relative;
+	right: -170px;
+	margin-top: 3%;
+	top: -16px;
+}
+
+
+#skills .bubbles{
+	margin-top: 10%;
+}
+
+#servicios{
+	background-color: #000000;
+	padding:90px;
+}
+
+#servicios .titulo {
+	color: #18b475;
+	margin-top: 2%;
+}
+
+
+.serv-title{
+	color: #000000;
+	font-weight: 800;
+	text-align: center;
+}
+
+
+.amarillo{
+	background-color: #ffc906;
+	width: 250px;
+	height: 45px;
+	border-radius: 50px;
+	line-height: 45px;
+}
+
+
+.purple{
+	background-color: #694e9f;
+	width: 250px;
+	height: 45px;
+	border-radius: 50px;
+	line-height: 45px;
+}
+
+.orange{
+	background-color: #fd7f1f;
+	width: 250px;
+	height: 45px;
+	border-radius: 50px;
+	line-height: 45px;
+}
+
+.blue{
+	background-color: #34a9f9;
+	width: 250px;
+	height: 45px;
+	border-radius: 50px;
+	line-height: 45px;
+}
+
+.rosa{
+	background-color: #ed729b;
+	width: 250px;
+	height: 45px;
+	border-radius: 50px;
+	line-height: 45px;
+}
+
+.serv-desc{
+	position: relative;
+	right: 0 !important;
+	left: 0 !important;
+	color: #000000;
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 50px;
+}
+
+#contact{
+	background-color: #000;
+	padding: 40px;
+}
+
+#contact h4{
+	color: #ed729b;
+}
+
+
+#contact p{
+	position: relative;
+	right: 0 !important;
+	left: 0 !important;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+.btn-contact2{
+	width: 140px;
+	height: 40px;
+	border-radius: 50px;
+	background-color:  #ed729b;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+
+.btn-contact2:hover{
+	background-color:  #fff;
+	color: #ed729b;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,0.40);
+	padding: 10% 0;
+}
+#proyectos .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+#proyectos .carousel-caption {
+	z-index: 2;
+}
+
+.btn-ver{
+	width: 140px;
+	height: 40px;
+	border-radius: 50px;
+	background-color:  #ed729b;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top: -240px;
+}
+
+
+#proyectos .titulo{
+	position: relative;
+	top: -270px;
+	color: #fff;
+	font-size: 90px;
+}
+
+
+footer{
+	background-color: #FFFFFF;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+
+footer i{
+	font-size: 30px;
+}
+
+
+footer a{
+	background-color: #ffc906;
+	width: 50px;
+	height: 50px;
+	line-height: 55px;
+	display: block;
+	border-radius: 100%;
+	color: #fd7f1f;
+	text-decoration: non;
+	margin: auto;
+	transition: all 0.4s ease-in-out;
+	font-size: 22px;
+	margin-top: 5%;
+}
+
+footer a:hover{
+	background-color: #fff;
+	color: #ffc906;
+	transition: all 0.4s ease-in-out;
+}
+
+#bigos{
+	margin-top: 7%;
+	margin-bottom: -16%;
+}
+
+#bigos p{
+	text-align: center;
+	color: #000000;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+#bigos h3{
+	font-size: 45px;
+	color: #fd7f1f;
+}
+
+.description{
+	position: relative;
+	top: 120px;
+}
+
+
+.description-2{
+	position: relative;
+bottom: -90px;
+	left: -20px;
+}
+
+#bigos .description-2 h3{
+	color: #18b475;
+}
+
+
+#bigos .description-3 h3{
+	color: #34a9f9;
+}
+
+.description-3 {
+	position: relative;
+	top: 140px;
+}
+
+.items-margin{
+	margin-top: -13%;
+}
+
+#bigos .description-4 h3{
+	color: #ed729b !important;
+}
+
+.description-4{
+	position: relative;
+	top: 140px;
+	left: -40px;
+}
+
+#bigos .description-5 h3{
+	color: #694e9f;
+}
+
+.description-5{
+	position: relative;
+	top: 140px;
+}
+
+
+.items-margin-2{
+	margin-bottom: 10%;
+	padding: 40px 0;
+	color: #fff;
+	position: relative;
+	top: -160px;
+}
+
+footer p{
+	color: #ffc906;
+	text-align: center;
+	position: relative;
+	left: 15px;
+}
+
+footer hr{
+	color: #BABABA;
+	border: solid thin;
+}
