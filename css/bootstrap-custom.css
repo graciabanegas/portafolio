@@ -1,0 +1,250 @@
+a{
+	outline:0 !important;
+	color: #EB708C;
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:13px;
+	
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#FFD700;	
+	font-weight: 700;
+	padding: 5px 17px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#EB708C;
+	transition: all 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#EB708C;
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:#e8c3d1;
+}
+
+
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#212121;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:0 ;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+	border:0 ;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#4676fa;		
+	height: auto;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#4676fa;
+}
+.navbar-light .navbar-brand img{
+	
+}
+
+
+.navbar-toggler i{
+	color: #00d9d9;
+	font-size: 20px;
+}
+
+
+.carousel .carousel-item {
+
+  	height: 750px;
+	 object-fit: cover;
+}
+
+.carousel-item img {
+
+    position: relative;
+
+    object-fit: cover;
+
+    top: -120px;
+
+    left: 0;
+
+    min-height: 700px;
+}
+
+
+
+#carouselExampleControls .carousel-control-prev-icon{
+	position: relative;
+	top: -120px;
+	
+}
+
+#carouselExampleControls .carousel-control-next-icon{
+	position: relative;
+	top: -120px;
+}
+
+
+#carouselExampleControls .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 10%; 
+}
+
+
+#carouselExampleControls2 .carousel .carousel-item {
+
+  	height: 50px !important;
+	object-fit: cover;
+}
+
+#carouselExampleControls2 .carousel-control-prev-icon{
+	position: relative;
+	top: -145px;
+	
+}
+
+#carouselExampleControls2 .carousel-control-next-icon{
+	position: relative;
+	top: -145px;
+}
+
+
+#carouselExampleControls2 .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 10%; 
+}
+
+
+#carouselExampleControls2 .carousel .carousel-item {
+
+  	height: 50px !important;
+	object-fit: cover;
+}
+
+
+#carouselExampleControls-3 .carousel-control-prev-icon{
+	position: relative;
+	top: -120px;
+	
+}
+
+#carouselExampleControls-3 .carousel-control-next-icon{
+	position: relative;
+	top: -120px;
+}
+
+
+#carouselExampleControls-3 .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 10%; 
+}
+
+#carouselExampleControls4 .carousel .carousel-item {
+
+  	height: 50px !important;
+	object-fit: cover;
+}
+
+#carouselExampleControls4 .carousel-control-prev-icon{
+	position: relative;
+	top: -145px;
+	
+}
+
+#carouselExampleControls4 .carousel-control-next-icon{
+	position: relative;
+	top: -145px;
+}
+
+
+#carouselExampleControls4 .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 0%;
+	width: 190px;
+	
+}
+
+
+#carouselExampleControls4 .carousel .carousel-item {
+
+  	height: 50px !important;
+	object-fit: cover;
+}
+
+#carouselExampleControls-5 .carousel-control-prev-icon{
+	position: relative;
+	top: -120px;
+	
+}
+
+#carouselExampleControls-5 .carousel-control-next-icon{
+	position: relative;
+	top: -120px;
+}
+
+
+#carouselExampleControls-5 .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 10%; 
+}
+
+
+
+
+
